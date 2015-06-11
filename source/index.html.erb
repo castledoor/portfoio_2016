@@ -1,0 +1,56 @@
+---
+title: Shoe Story
+---
+
+<div class="story">
+  <%= partial "layouts/partials/header" %>
+  <div class="main">
+    <div class="main-frame-shoe  story-hero"></div>
+    <div class="scrolled-content">
+      <div class="sub-images">
+        <%= image_tag "shoe_story/shoe_story_sub_1_c.png", :class => "story-sub-image", :id => "shoe-hover-1" %>
+        <%= image_tag "shoe_story/shoe_story_sub_2_c.png", :class => "story-sub-image" , :id => "shoe-hover-2"  %>
+        <%= image_tag "shoe_story/shoe_story_sub_3_c.png", :class => "story-sub-image" , :id => "shoe-hover-3"   %>
+      </div>
+      <div class="call-to-action-shop-now">
+        <div class="shoe-text-wrapper">
+          <div id="text-switch-one" class="shoe-switchbox">
+            <p>CLEAN STYLE + PURE PERFORMANCE</p>
+          </div>
+          <div id="text-switch-two" class="shoe-switchbox">
+            <p>NIKE ZOOM CUSHIONING</p>
+            <p>FOR LOW-PROFILE RESPONSIVENESS</p>
+          </div>
+          <div id="text-switch-three" class="shoe-switchbox">
+            <p>FLYWEAVE UPPER FOR ULTRALIGHT,</p>
+            <p>FLEXIBLE SUPPORT.</p>
+          </div>
+          <div id="text-switch-four" class="shoe-switchbox">
+            <p>FLYWWIRE CABLES</p>
+            <p>DELIVER DYNAMIC LOCKDOWN</p>
+          </div>
+        </div>
+        <%= link_to image_tag("shop_now.png"), "/", :class => "shop-now" %>
+      </div>
+     <div class="relative-carosel-container">
+        <div class="shoe-carosel carouselbox active">
+          <ul class="content">
+            <li class="current">
+              <%= image_tag "shoe_story/shoe_footer_1.png" %>
+            </li>
+            <li>
+              <%= image_tag "shoe_story/shoe_footer_2.png" %>
+            </li>
+            <li>
+              <%= image_tag "shoe_story/shoe_footer_3.png" %>
+            </li>
+          </ul>
+          <div class="arrows">
+            <%= image_tag "shoe_story/arrow-left.png", :class => "a-left prev" %>
+            <%= image_tag "shoe_story/arrow-right.png", :class => "a-right next" %> 
+          </div>
+        <div>
+      </div>
+    </div>
+  <div>
+</div>
