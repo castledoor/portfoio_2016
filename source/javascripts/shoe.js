@@ -29,7 +29,6 @@ $(document).ready(function() {
     $('#text-switch-one').css("display", "block");
   });
 
-
   carousel = (function(){
     // Read necessary elements from the DOM once
     var box = document.querySelector('.carouselbox');
