@@ -14,3 +14,10 @@ $(document).ready(function() {
     $('.apparel-story').addClass('active');
   });
 });
+
+// DRYing
+// function story_switch(story) {
+//   var story = 
+//   $('li').removeClass('active');
+// }
+
