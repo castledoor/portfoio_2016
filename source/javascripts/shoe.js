@@ -49,7 +49,7 @@ $(document).ready(function() {
     function navigate(direction) {
 
       // hide the old current list item 
-      current.classList.remove('current');
+      current.classList.remove('current-slide');
       
       // calculate th new position
       counter = counter + direction;
@@ -68,7 +68,7 @@ $(document).ready(function() {
         counter = 0;
       }
       current = items[counter];
-      current.classList.add('current');
+      current.classList.add('current-slide');
     }
 
     // add event handlers to buttons

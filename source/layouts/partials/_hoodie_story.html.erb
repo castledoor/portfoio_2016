@@ -5,10 +5,27 @@
     </div>
   </div>
   <div class="video">
-    <video width="693" height="405" controls poster="/images/hoodie_story/hoodie_poster.png" onclick="this.play();" >
-     <source src="videos/KD_HOODIE4.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
+    <section id="wrapper">
+      <div class="videoContainer">
+        <video id="myVideo" controls preload="auto" poster="/images/hoodie_story/hoodie_poster.png" width="693" height="405">
+          <source src="videos/KD_HOODIE4.mp4" type="video/mp4" />
+          <p>Your browser does not support the video tag.</p>
+        </video>
+        <div class="control">
+          <div class="btmControl">
+            <div class="btnPlay btn" title="Play/Pause video"><span class="icon-play"></span></div>
+            <div class="progress-bar">
+              <div class="progress">
+                <span class="bufferBar"></span>
+                <span class="timeBar"></span>
+              </div>
+            </div>
+            <div class="sound sound2 btn" title="Mute/Unmute sound"><span class="icon-sound"></span></div>
+            <div class="btnFS btn" title="Switch to full screen"><span class="icon-fullscreen"></span></div>
+          </div>
+        </div>
+      </div>
+    </section>
   </div>
   <div class="hoodie-bar-words call-to-action-shop-now">
     <p>TAILORED FOR MOBILITY.</p>
