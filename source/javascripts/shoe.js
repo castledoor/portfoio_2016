@@ -28,58 +28,10 @@ $(document).ready(function() {
     $('#text-switch-four').css("display", "none");
     $('#text-switch-one').css("display", "block");
   });
-
-  carousel = (function(){
-    // Read necessary elements from the DOM once
-    var box = document.querySelector('.carouselbox');
-    var next = box.querySelector('.next');
-    var prev = box.querySelector('.prev');
-
-    // Define the global counter, the items and the 
-    // current item 
-    var counter = 0;
-    var items = box.querySelectorAll('.content li');
-    var amount = items.length;
-    var current = items[0];
-
-    box.classList.add('active');
-
-    // navigate through the carousel
-
-    function navigate(direction) {
-
-      // hide the old current list item 
-      current.classList.remove('current-slide');
-      
-      // calculate th new position
-      counter = counter + direction;
-
-      // if the previous one was chosen
-      // and the counter is less than 0 
-      // make the counter the last element,
-      // thus looping the carousel
-      if (direction === -1 && 
-          counter < 0) { 
-        counter = amount - 1; 
-      }
-
-      if (direction === 1 && 
-          !items[counter]) { 
-        counter = 0;
-      }
-      current = items[counter];
-      current.classList.add('current-slide');
-    }
-
-    // add event handlers to buttons
-    next.addEventListener('click', function(ev) {
-      navigate(1);
-    });
-    prev.addEventListener('click', function(ev) {
-      navigate(-1);
-    });
-
-    navigate(0);
-
-  })();
+  
+  $('.carousel-content').slick({
+      prevArrow:"<img class='a-left control-c prev slick-prev' src='../images/shoe_story/arrow-left.png'>",
+      nextArrow:"<img class='a-right control-c next slick-next' src='../images/shoe_story/arrow-right.png'>"
+  });
+ 
 }); 
