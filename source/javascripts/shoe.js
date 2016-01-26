@@ -1,4 +1,19 @@
 $(document).ready(function() {
+
+   // $("[id^=shoe-hover]").each(function () {
+   //    $(this).mouseenter(function() {
+   //      neutral_label = $(this).parent().siblings().children().first().children().first();
+   //      text_switch = $(this).parent().siblings().children().first().children().first().next();
+   //      neutral_label.css("display", "none");
+   //      text_switch.css("display", "block");
+   //    });
+
+   //    $(this).mouseleave(function() {
+   //      neutral_label.css("display", "block");
+   //      text_switch.css("display", "none");
+   //    });
+   //  });
+
   $("#shoe-hover-1").mouseover(function() {
     $('#text-switch-one').css("display", "none");
     $('#text-switch-two').css("display", "block");
