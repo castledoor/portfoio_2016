@@ -1,2 +1,7 @@
-<section class="projects-container">
-<section>
+<% data.projects.details.each do |info| %>
+  <section class="project-wrapper">
+    <div class="project-container">
+      <p class="title"><%= info.title %></p>
+    </div>
+  </section>
+<% end %>

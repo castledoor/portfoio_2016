@@ -1,0 +1,50 @@
+---
+details:
+- num: 1
+  title: "Nike Banners"
+  role: "developer"
+  languages: "javascript / sass / middleman"
+  live_here: ""
+  blurb: ""
+- num: 2
+  title: "Nike Advaned Search"
+  role: "developer"
+  languages: "javascript / sass / middleman"
+  live_here: ""
+  blurb: ""
+- num: 3
+  title: "The Program PDX"
+  role: "developer"
+  languages: "javascript / sass / middleman"
+  live_here: ""
+  blurb: ""
+- num: 4
+  title: "Redbull Listen Up!"
+  role: "developer"
+  languages: "javascript / sass / middleman"
+  live_here: ""
+  blurb: ""
+- num: 5
+  title: "Redbull Art of Can"
+  role: "developer"
+  languages: "javascript / sass / middleman"
+  live_here: ""
+  blurb: ""
+- num: 6
+  title: "FINE public facing merch store"
+  role: "developer"
+  languages: "javascript / sass / middleman"
+  live_here: ""
+  blurb: ""
+- num: 7
+  title: "FINE client facing gift shop"
+  role: "developer"
+  languages: "javascript / sass / middleman"
+  live_here: ""
+  blurb: ""
+- num: 8
+  title: "Personal Project (the Watch Tower)"
+  role: "developer"
+  languages: "javascript / sass / middleman"
+  live_here: ""
+  blurb: ""
