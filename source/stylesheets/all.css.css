@@ -1,0 +1,34 @@
+/* line 1, partials/desktop/_header.sass */
+.container-body {
+  width: 100%;
+}
+
+/* line 5, partials/desktop/_header.sass */
+.header {
+  height: 440px;
+  position: relative;
+  font-family: "Moon Flower";
+}
+/* line 10, partials/desktop/_header.sass */
+.header .logo {
+  float: right;
+  width: 80px;
+  height: auto;
+  padding: 0 10px 0 0;
+}
+/* line 16, partials/desktop/_header.sass */
+.header .header-text {
+  position: absolute;
+  bottom: 0;
+  padding: 60px;
+  font-size: 36px;
+  line-height: 6px;
+}
+
+@font-face {
+  font-family: "Moon Flower";
+  src: url("../fonts/Moon_Flower_Bold.ttf");
+  src: url("../fonts/Moon_Flower_Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Moon_Flower_Bold.woff") format("woff"), url("../fonts/Moon_Flower_Bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 900;
+}
