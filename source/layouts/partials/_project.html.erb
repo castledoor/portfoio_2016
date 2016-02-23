@@ -2,7 +2,10 @@
   <section class="project-wrapper">
     <div class="project-container">
       <p class="title"><%= info.title %></p>
-      <p class="plus"> + </p>
+      <p id="plus_minus" class="closed plus"> + </p>
+    </div>
+    <div class="work-pull">
+       <%= partial "layouts/partials/work_pull" %>
     </div>
   </section>
 <% end %>
