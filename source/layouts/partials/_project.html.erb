@@ -2,10 +2,26 @@
   <section class="project-wrapper">
     <div class="project-container">
       <p class="title"><%= info.title %></p>
-      <p id="plus_minus" class="closed plus"> + </p>
+      <div class="drawer-controls">
+        <p id="plus_minus" class=" a plus"> + </p>
+        <p id="plus_minus" class="b minus"> - </p>
+      </div>
     </div>
-    <div class="work-pull">
-       <%= partial "layouts/partials/work_pull" %>
+    <div class="work-pull closed">
+        <div class="work-body">
+          <p><%= info.blurb %></p>
+          <hr>
+          <div class="project_info">
+            <p>Role: <%= info.role %></p>
+            <p>Technology: <%= info.languages %></p>
+            <p><a href=<%= info.live_here %>  target="_blank"><span>check it out!</span></a></p>
+          </div>
+          <div class="images slider">
+             <%= image_tag "#{info.image_1}", :class => "project-image" %>
+             <%= image_tag "#{info.image_2}", :class => "project-image" %>
+             <%= image_tag "#{info.image_3}", :class => "project-image" %>
+          </div>
+        </div>
     </div>
   </section>
 <% end %>
