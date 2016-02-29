@@ -16,10 +16,23 @@
             <p>Technology: <%= info.languages %></p>
             <p><a href=<%= info.live_here %>  target="_blank"><span>check it out!</span></a></p>
           </div>
-          <div class="images slider">
-             <%= image_tag "#{info.image_1}", :class => "project-image" %>
-             <%= image_tag "#{info.image_2}", :class => "project-image" %>
-             <%= image_tag "#{info.image_3}", :class => "project-image" %>
+          <div class="images banner">
+            <% if info.image_number == 3 %>
+            <ul>
+              <li><%= image_tag "#{info.image_1}", :class => "project-image" %></li>
+              <li><%= image_tag "#{info.image_2}", :class => "project-image" %></li>
+              <li><%= image_tag "#{info.image_3}", :class => "project-image" %></li>
+            </ul>
+            <% elsif info.image_number == 2 %>
+              <ul>
+                <li><%= image_tag "#{info.image_1}", :class => "project-image" %></li>
+                <li><%= image_tag "#{info.image_2}", :class => "project-image" %></li>
+              </ul>
+            <% elsif info.image_number == 1 %>
+              <%= image_tag "#{info.image_1}", :class => "project-image" %>
+            <% else %>
+              <p> nothing to see here </p>
+            <% end %>
           </div>
         </div>
     </div>

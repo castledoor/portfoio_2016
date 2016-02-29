@@ -1,4 +1,7 @@
 $(document).ready(function() {
+
+
+
   $('.work-pull').css("display", "none");
 
   $('.plus').click(function() {
@@ -28,9 +31,14 @@ $(document).ready(function() {
     $(this).prev().css("display", "block");
   });
 
+
+
 });
 
 
-jQuery(function($) {
-$('.slider').sss();
-});
+
+$(function() { $('.banner').unslider({infinite: true}) })
+
+
+
+
