@@ -22,9 +22,10 @@
             <% if index == 6 %>
               <p> Status: Private </p>
 
-            <% elsif index == 3 || 4 %>
+            <% elsif index == 3 || index == 4  %>
+              <p> Status: Not Longer Live (see videos of projects in action)
 
-              <p> Status: No Longer Live (videos of project in action) </p>
+         
             <% else %>
               <p><a href=<%= info.live_here %>  target="_blank"><span>check it out!</span></a></p>
             <% end %>
@@ -49,7 +50,7 @@
             <div class="video">
             <section id="wrapper">
               <div class="videoContainer">
-                <video class="myVideo" controls preload="metadata" "<%= info.poster_1 %>">
+                <video class="myVideo" controls preload="metadata" poster="<%= info.poster_1 %>">
                  <source src="<%= info.video_1 %>" type="video/mp4"/>
                   <p>Your browser does not support the video tag.</p>
                 </video>
@@ -72,7 +73,7 @@
               <div class="video">
             <section id="wrapper">
               <div class="videoContainer">
-                <video id="myVideo" controls preload="metadata" "<%= info.poster_2 %>">
+                <video id="myVideo" controls preload="metadata" poster="<%= info.poster_2 %>">
                  <source src="<%= info.video_2 %>" type="video/mp4"/>
                   <p>Your browser does not support the video tag.</p>
                 </video>
