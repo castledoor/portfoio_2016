@@ -1,3 +1,6 @@
+body
+  min-width: 259px
+
 .project-container 
   height: 50px
   background-color: #F1F0F0
@@ -18,23 +21,32 @@
     vertical-align: middle
     display: table-cell
     padding-right: 12%
-  
+
+  .title-resume 
+    cursor: pointer
+    color: black !important
+    font-family: "Moon Flower"
+    font-size: 20px
+    padding-top: 15px
+    padding-bottom: 15px
+    padding-left: 12%
+
+    a
+      text-decoration: none !important
+
 
 .main 
   padding-top: 30px
 
-.plus 
-  position: absolute
-  right: 90px
-  margin-top: 13px
+.plus , .minus
+  float: right
+  padding-right: 20px
   cursor: pointer
+  padding-top: 15px
 
 .minus 
   display: none
-  position: absolute
-  right: 90px
-  margin-top: 13px
-  cursor: pointer
+
 
 .work-pull 
   background-color: #DDEBDE
@@ -87,6 +99,23 @@
   margin-top: -46%
   font-size: 20px
 
-.drawer-controls 
-  margin-right: 10%
 
+.resume-mobile
+  position: relative
+  float: right
+  display: none
+
+video 
+  width: 100%
+
+@media (max-width: 486px)
+  .header-image , .header-words
+    display: none
+
+  .resume-mobile
+    display: block
+
+@media (max-width: 388px)
+
+  .header .header-text
+    font-size: 32px

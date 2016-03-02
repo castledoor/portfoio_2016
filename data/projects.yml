@@ -1,20 +1,6 @@
 ---
 details:
 - num: 1
-  title: "Nike Banners"
-  role: "developer"
-  languages: "javascript / sass / middleman"
-  live_here: ""
-  blurb: "These banners were made to advertise the newest shoe releases in 2015, they were made to fit into exisitng East Bay, Footlocker, and Foot Action sites."
-  image_number: 0
-- num: 2
-  title: "Nike Advanced Search"
-  role: "developer"
-  languages: "javascript / sass / middleman"
-  live_here: ""
-  blurb: "When a user searched for the following new releases they were presented with an enhanced product experience.  The advanced search gave indepth information about the featured product, exclusive product shots or video,  as well as displaying related items."
-  image_number: 0
-- num: 3
   title: "The Program PDX"
   role: "developer"
   languages: "javascript / sass / gulp / jade"
@@ -24,7 +10,8 @@ details:
   image_2: "images/program/program_2.png"
   image_3: "images/program/program_3.png"
   image_number: 3
-- num: 4
+  video_number: 0
+- num: 2
   title: "Red bull Listen Up!"
   role: "developer"
   languages: "javascript / sass / middleman / soundCloud API"
@@ -33,7 +20,8 @@ details:
   image_1: "images/listen_up/listen_up.png"
   image_2: "images/listen_up/listen_up_2.png"
   image_number: 2
-- num: 5
+  video_number: 0
+- num: 3
   title: "Red bull Art of Can"
   role: "developer"
   languages: "javascript / sass / middleman"
@@ -42,6 +30,28 @@ details:
   image_1: "images/aoc/aoc_1.png"
   image_2: "images/aoc/aoc_2.png"
   image_number: 2
+  video_number: 0
+- num: 4
+  title: "Nike Banners"
+  role: "developer"
+  languages: "javascript / sass / middleman"
+  live_here: ""
+  blurb: "These banners were made to advertise the newest shoe releases in 2015, they were made to fit into exisitng East Bay, Footlocker, and Foot Action sites."
+  video_1: "videos/banner_1.mp4"
+  video_2: "videos/banner_2.mp4"
+  poster_1: "images/posters/poster_1.png"
+  image_number: 0
+  video_number: 2
+- num: 5
+  title: "Nike Advanced Search"
+  role: "developer"
+  languages: "javascript / sass / middleman"
+  live_here: ""
+  blurb: "When a user searched for the following new releases they were presented with an enhanced product experience.  The advanced search gave indepth information about the featured product, exclusive product shots or video,  as well as displaying related items."
+  video_1: "videos/banner_3.mp4"
+  video_2: "videos/banner_4.mp4"
+  image_number: 0
+  video_number: 2
 - num: 6
   title: "FINE public facing merch store"
   role: "developer"
@@ -51,6 +61,7 @@ details:
   image_1: "images/fine_public/fine_public_1.png"
   image_2: "images/fine_public/fine_public_2.png"
   image_number: 2
+  video_number: 0
 - num: 7
   title: "FINE client facing gift shop"
   role: "developer"
@@ -61,6 +72,7 @@ details:
   image_2: "images/fine_private/fine_private_2.png"
   image_3: "images/fine_private/fine_private_3.png"
   image_number: 3
+  video_number: 0
 - num: 8
   title: "NWTechFest Hackathon Winning Project (2013)"
   role: "developer"
@@ -70,6 +82,7 @@ details:
   image_1: "images/icann/icann_1.png"
   image_2: "images/icann/icann_2.png"
   image_number: 2
+  video_number: 0
 - num: 9
   title: "the Watch Tower (personal project 2013)"
   role: "developer / designer"
@@ -78,3 +91,13 @@ details:
   blurb: "A small side project, that explores a study in voyuerism. Using the Instagram API a different random photo flashes across the screen every 10 seconds. Disclaimer: Could possibly to be NSFW"
   image_1: "images/watch_tower/watch_tower.png"
   image_number: 1
+  video_number: 0
+- num: 10
+  title: "resumé"
+  role: ""
+  languages: ""
+  live_here: ""
+  blurb: ""
+  image_1: ""
+  image_number: 0
+  video_number: 0

@@ -1,5 +1,16 @@
 $(document).ready(function() {
 
+  $( window ).resize(function() {
+    if ($(window).width() > 486) {
+  var resume = $('.project-wrapper').last();
+  $(resume).css("display", "none"); } 
+else  {
+    $(resume).css("display", "block");
+}
+
+}).resize();
+
+
 
 
   $('.work-pull').css("display", "none");
@@ -37,7 +48,9 @@ $(document).ready(function() {
 
 
 
+
 $(function() { $('.banner').unslider({infinite: true}) })
+
 
 
 
